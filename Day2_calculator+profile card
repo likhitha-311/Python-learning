@@ -1,0 +1,51 @@
+# ========================================
+# T. Likhitha - Python Learning Journey
+# College: SVCN | Branch: CAI
+# Goal: GENAI ENGINEER
+# ========================================
+
+# --- 1. SIMPLE CALCULATOR (Day 2 - Task 1) ---
+print("=== 1. SIMPLE CALCULATOR ===")
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+print(f"Add: {a+b}")
+print(f"Sub: {a-b}")
+print(f"Mul: {a*b}")
+print(f"Div: {a/b}")
+
+# --- 2. MODULUS CHECK ---
+print("\n=== 2. MODULUS CHECK ===")
+num = int(input("Enter number: "))
+print(f"Remainder when divided by 2 is: {num % 2}")
+
+# --- 3. EVEN / ODD CHECKER (Day 2 - Task 2) ---
+print("\n=== 3. EVEN / ODD CHECKER ===")
+num = int(input("Enter number: "))
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+# --- 4. LOOP - CHECK LIST OF NUMBERS (Day 3) ---
+print("\n=== 4. EVEN/ODD FOR LIST ===")
+nums = [1, 2, 3, 4, 5, 10, 15]
+for n in nums:
+    if n % 2 == 0:
+        print(f"{n} is Even")
+    else:
+        print(f"{n} is Odd")
+
+# --- 5. PROFILE CARD PROJECT (Mini Project) ---
+print("\n=== 5. CREATE YOUR PROFILE CARD ===")
+name = input("Name: ")
+branch = input("Branch: ")
+college = input("College: ")
+dream = input("Dream Role: ")
+
+print("\n------------------------------")
+print(f" PROFILE: {name.upper()} ")
+print("------------------------------")
+print(f"Branch: {branch}")
+print(f"College: {college}")
+print(f"Goal: {dream}")
+print("------------------------------")
