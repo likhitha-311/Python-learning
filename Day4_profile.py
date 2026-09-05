@@ -5,7 +5,7 @@
 def show_my_profile():
     print("My Profile Card:")
     print("Name: Likhitha")
-    print("Location: Kavali, Andhra Pradesh")
+    print("Location: Nellore, Andhra Pradesh")
     print("Branch: CAI - AI and Data Science")
     print("Current Learning: Python Functions - Day 4")
     print("Goal: GenAI Engineer")
