@@ -1,5 +1,3 @@
-# Python-learning
-My python learning journey! 
 <div align="center">
 
 # 🐍 100 Days of Python
@@ -125,34 +123,33 @@ Learning is better when I **build** something. These are the first projects I pl
 
 | Day | Date | Topic | Code |
 |:--:|:--:|:--|:--:|
-| 01 | _date_ | Basics | [day1_basics.py](day1_basics.py) |
-| 02 | _date_ | _What I learned today_ | [day2_topic.py](day2_topic.py) |
+| 01 | _date_ | _What I learned today_ | [Day-001](Day-001) |
+| 02 | _date_ | _What I learned today_ | [Day-002](Day-002) |
 
 ## 📂 Repository Structure
 
 ```
-python-learning/
+100-days-of-python/
 ├── assets/            # Images used in this README
-├── day1_basics.py     # Day 1: Python basics
-├── day2_topic.py      # Day 2
-├── day3_topic.py      # Day 3
+├── Day-001/
+│   └── main.py        # Code for Day 1
+├── Day-002/
+│   └── main.py
 ├── ...
 └── README.md
 ```
-
-> 📌 **Naming style:** `day<number>_<topic>.py`, for example `day1_basics.py`.
 
 ## ▶️ How to Run My Code
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/likhitha-113/python-learning.git
+git clone https://github.com/likhitha-113/100-days-of-python.git
 
-# 2. Go into the repository folder
-cd python-learning
+# 2. Go into a day's folder
+cd 100-days-of-python/Day-001
 
-# 3. Run any day's program
-python day1_basics.py
+# 3. Run the program
+python main.py
 ```
 
 > Needs **Python 3.8+**. Download it from [python.org](https://www.python.org/downloads/).
